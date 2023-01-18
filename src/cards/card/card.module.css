@@ -1,0 +1,63 @@
+.card_outside {
+    position: relative;
+    width: 320px;
+    height: 509px;
+    background: #1698D9;
+    border-radius: 12px;
+    clip-path: polygon(45px 0%, 100% 0%, 100% 100%, 0% 100%, 0% 45px);
+}
+
+.card_inside {
+    font-family: 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    background: white;
+    border-radius: 12px;
+    clip-path: polygon(45px 0%, 100% 0%, 100% 100%, 0% 100%, 0% 45px);
+}
+
+.description {
+    margin: 21px 51px;
+}
+
+.caption {
+    color: #666666;
+    font-size: 16px;
+    line-height: 18.58px;
+}
+
+.title {
+    line-height: 55.73px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.taste {
+    line-height: 27.87px;
+    font-size: 24px;
+    color: #B3B3B3;
+}
+
+.kgs {
+    position:absolute;
+    background-color: #1698D9;
+    color:white;
+    border-radius: 50%;
+    right:5%;
+    bottom:8.84%;
+    width: 80px;
+    height: 80px;
+}
+
+.cat_img {
+    position: absolute;
+    border-radius: 12px;
+    bottom: 0;
+}
+
+.default {
+    border-color: #1698D9;
+}
