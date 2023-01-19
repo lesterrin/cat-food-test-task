@@ -104,6 +104,10 @@
     cursor: pointer;
 }
 
+.gold {
+    color: #FFFF66;
+}
+
 .default {
     background-color: #1698D9;
 }
@@ -114,5 +118,12 @@
 
 .disabled {
     background-color: #B3B3B3;
-    color: #F2F2F2;
+}
+
+.disabled .description > * {
+    color: #B3B3B3;
+}
+
+.disabled img {
+    opacity: 0.5;
 }
