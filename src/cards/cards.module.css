@@ -1,0 +1,6 @@
+.cards_wrapper{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', sans-serif;
+    flex-wrap: wrap;
+}
